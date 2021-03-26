@@ -1,0 +1,18 @@
+Emailing website for Visually challenged people
+
+1. Download all these files and keep all of them in "xampp\htdocs\New_Folder" present in the drive in which you have installed xampp(it can be wamp or any local server).
+
+2. download VScode, Xampp and install both.
+
+3. open the New_folder in vscode. Do some changes by seeing this video "https://www.youtube.com/watch?v=dNTZ8X9Xk_Q"
+
+4. Now open xampp software, start apache and mysql, Then click on "Admin" of mysql.
+
+5. Create the required table and database by watching the last part of the video "https://www.youtube.com/watch?v=1SnPKhCdlsU"
+
+6. After completing the database part, open the index.php on the browser by searching Localhost/New_Folder/index.php
+
+7. Do the necessary changes according to your preferences.
+
+8. As the website is ready for local server only, For hosting the website online buy a paid VPS or a free one and do the necessary stuffs.
+

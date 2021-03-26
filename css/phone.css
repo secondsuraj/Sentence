@@ -1,0 +1,86 @@
+*,:before, :after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}   
+html{
+    scroll-behavior: smooth;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+}
+/* Navigation */
+#navbar{
+    flex-direction: row;
+    position: sticky;
+    width: 110%;
+}
+#navbar ul li a{
+    font-size: 0.89rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+#logo img {
+    height: 10px;
+    margin: 20px 10px;
+}
+/* Clock */
+#clockcontainer{
+   display: none;    
+}
+/* Home Section*/
+#home{
+    height: 100%;
+    padding: 30px 0px;
+    flex-direction: column;
+    width: 390px;
+}
+#home::before{
+    height: 100%;
+    position: fixed;
+}
+#home p{
+    font-size: 13px;
+}
+/* Box1 */
+#box1{
+    padding-top: 240px;
+    padding-bottom: 250px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Box2 */
+#box2{
+    top: 100px;
+    padding-bottom: 200px;
+}
+
+#box2 input,textarea{
+    width: 100%;
+    /* padding: 0.4rem; */
+    border-radius: 20px;
+    font-size: .85rem;
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+   
+}
+#box2 form{
+    width: 100%;
+}
+
+#box2 label{
+    font-size: 1.0rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* Utility Classes */
+.h-primary{
+    font-size: 26px;
+}
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
